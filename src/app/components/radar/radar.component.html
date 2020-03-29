@@ -1,0 +1,29 @@
+
+  <div class="row">
+
+    <div class="col md-10">
+
+        <div>
+            <div>
+              <div style="display: block">
+                <canvas baseChart
+                  [datasets]="radarChartData"
+                  [options]="radarChartOptions"
+                  [labels]="radarChartLabels"
+                  [chartType]="radarChartType">
+                </canvas>
+              </div>
+            </div>
+          </div>
+
+          
+    </div>
+
+    <div class="col-md-2">
+
+            <button class="btn btn-primary btn-block" (click)="numeros_random()">
+            Actualizar Datos
+            </button>
+          </div>
+</div>
+<hr><br>
